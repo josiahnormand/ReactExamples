@@ -1,0 +1,9 @@
+/node_modules
+bundle.js
+Key.txt
+npm-debug.log
+.DS_Store
+
+# IntelliJ
+*.iml
+/.idea

@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "ReactBaseApp"
+		},
+		{
+			"path": "ReactVideoPlayer"
+		},
+		{
+			"path": "ReduxSimpleApp"
+		}
+	],
+	"settings": {}
+}
