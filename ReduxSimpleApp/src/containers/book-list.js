@@ -7,6 +7,13 @@ class BookList extends Component {
 //
 //        this.state = { term: '' };
 //    }
+    renderList() {
+        return this.props.books.map((book) => {
+            return (
+                <li key={book.title} className="list-group-item">{book.title}</li>
+            );
+        });
+    };
 
     render() {
         return (
@@ -20,13 +27,7 @@ class BookList extends Component {
   
     }
 
-    renderList() {
-        return this.props.books.map((book) => {
-            return (
-                <li key={book.title} className="list-group-item">{book.title}</li>
-            );
-        });
-    };
+
 
 }
 
